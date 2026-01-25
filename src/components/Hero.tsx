@@ -34,7 +34,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-8 font-light">
-            Software Developer & AI and Data Science Enthusiast
+          AI Engineer & Data Science Enthusiast
           </h2>
         </motion.div>
 
@@ -78,20 +78,35 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex items-center justify-center space-x-6"
         >
-          <Button variant="ghost" size="icon" className="h-12 w-12" >
-            <a href="https://github.com/MIHIRPANCHAL13" target="_blank" rel="noopener noreferrer">
-            <Github className="h-6 w-6"/>
+          <Button
+            asChild
+            variant="ghost"
+            size="icon"
+            className="h-12 w-12"
+          >
+            <a
+              href="https://github.com/MIHIRPANCHAL13"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="h-6 w-6" />
             </a>
           </Button>
+
           <Button variant="ghost" size="icon" className="h-12 w-12">
           <a href="https://www.linkedin.com/in/mihir-panchal-86588b1b2/" target="_blank" rel="noopener noreferrer">
             <Linkedin className="h-6 w-6" />
             </a>
           </Button>
-          <Button variant="outline" size="sm" className="ml-4">
+          <Button variant="outline" size="sm" className="ml-4" asChild>
+          <a
+            href="/Mihir_Resume.pdf"
+            download
+          >
             <Download className="mr-2 h-4 w-4" />
             Resume
-          </Button>
+          </a>
+        </Button>
         </motion.div>
       </div>
     </section>

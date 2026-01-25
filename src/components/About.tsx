@@ -5,10 +5,50 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const skills = [
-  'React', 'Javascript', 'Python', 'AWS', 'Data Science',
-  'SQL', 'Flask', 'Prompt Engineering', 'Git', 'PowerBI',
-  'Data Analysis', 'Pandas', 'Machine Learning'
+  // Programming Languages
+  'Python',
+  'JavaScript',
+  'SQL',
+
+  // AI / Machine Learning
+  'Machine Learning',
+  'Deep Learning',
+  'TensorFlow',
+  'Scikit-learn',
+  'Pandas',
+  'Data Science',
+  'Natural Language Processing (NLP)',
+
+  // Generative AI
+  'Large Language Models (LLMs)',
+  'Prompt Engineering',
+  'Fine-tuning',
+  'Retrieval-Augmented Generation (RAG)',
+
+  // Web Technologies
+  'React',
+
+  // Cloud & MLOps
+  'AWS (SageMaker, Lambda, S3)',
+  'Oracle Cloud Infrastructure',
+  'Azure',
+  'MLOps',
+
+  // Databases
+  'MySQL',
+  'PostgreSQL',
+  'SQL Server',
+
+  // Tools & Platforms
+  'Git',
+  'VS Code',
+  'Kaggle',
+  'Geospatial Analysis',
+
+  // Responsible AI
+  'Responsible AI'
 ];
+
 
 export function About() {
   return (
@@ -23,7 +63,7 @@ export function About() {
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Passionate developer with a keen eye for detail and a love for creating 
+            Passionate AI developer with a keen eye for detail and a love for creating 
             seamless user experiences.
           </p>
         </motion.div>
@@ -40,10 +80,10 @@ export function About() {
                 <h3 className="text-2xl font-semibold mb-6">My Story</h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    I am a passionate software developer with a strong foundation in programming, web development, 
-                    and machine learning. Armed with a Bachelor's degree in Computer Science and hands-on experience 
-                    in Python, React JS, JavaScript and C#, I specialize in crafting innovative solutions that bridge
-                    technology and real-world challenges.
+                  AI Engineer with 2+ years of experience specializing in generative AI, machine learning, and full-stack development.
+Proven track record in developing innovative AI solutions using Python, TensorFlow, and modern web technologies.
+Certified in Oracle Cloud Infrastructure Generative AI, AWS Machine Learning, and Microsoft Foundry Fine-tuning.
+Passionate about leveraging cutting-edge AI technologies to solve complex real-world problems and drive business impact.
                   </p>
                   <p>
                   I have earned certifications in Python, Pandas, and Gold Badge For SQL on HackerRank, along with completing 
@@ -52,7 +92,7 @@ export function About() {
                   </p>
                   <p>
                   With a keen interest in generative AI, data science, and geospatial analysis, I am eager to contribute to impactful 
-                  projects, collaborate with the Kaggle community, and uncover meaningful insights from data. Let’s connect, learn, and create
+                  projects, collaborate with the Kaggle community, and uncover meaningful insights from data. Let’s connect, learn, and create!!
                   </p>
                 </div>
               </CardContent>

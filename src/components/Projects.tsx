@@ -8,12 +8,35 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Nexus AI – Multi-Domain Recommendation Engine',
+    description: 'An intelligent, AI-powered recommendation system delivering hyper-personalized suggestions across Movies, Books, Video Games, Tech, and Travel. Uses advanced reasoning to match user vibes, preferences, and deal-breakers rather than basic genre-based filtering.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80',
+    technologies: ['Generative AI', 'Machine Learning', 'React', 'TypeScript', 'Google Gemini', 'Prompt Engineering'],
+    github: 'https://github.com/MIHIRPANCHAL13/Nexus-AI-Recommender',
+    featured: true,
+  },
+  {
+    title: 'DocuChat AI – Intelligent Document Assistant',
+    description: 'A high-performance AI document workspace that enables real-time interaction with PDFs and text files. Supports contextual question answering with citations, smart summarization, and a streaming chat UI for accurate, human-like document analysis.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    technologies: ['Generative AI', 'RAG', 'Prompt Engineering', 'React 19', 'TypeScript', 'Tailwind CSS', 'Google Gemini'],
+    github: 'https://github.com/MIHIRPANCHAL13/DocChat-AI',
+    featured: true,
+  },
+  {
+    title: 'YOLO Vision Pro – Real-Time Object Detection',
+    description: 'A browser-based computer vision application performing real-time object detection entirely on-device. Built with TensorFlow.js and COCO-SSD for low-latency inference, ensuring offline capability and complete user privacy.',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80',
+    technologies: ['Computer Vision', 'TensorFlow.js', 'YOLO', 'React', 'TypeScript', 'HTML5'],
+    github: 'https://github.com/MIHIRPANCHAL13/YOLO-Vision-Pro',
+    featured: true,
+  },      
+  {
     title: 'Sign Language Interpreter',
     description: 'This project utilizes advanced technology to seamlessly translate user-input text into expressive sign language gestures performed by a dynamic 3D character. Enhancing communication inclusivity for the deaf and hard of hearing.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80',
     technologies: ['3D Animation', 'Python', 'NLP', 'GENAI', 'Github'],
     github: 'https://github.com/MIHIRPANCHAL13/SIGN_LANGUAGUE_INTERPRETER',
-    live: '#',
     featured: true,
   },
   {
@@ -22,7 +45,6 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80',
     technologies: ['Computer Vision', 'CV2', 'Python', 'YOLOv8'],
     github: 'https://github.com/MIHIRPANCHAL13/cabel-damage-',
-    live: '#',
     featured: true,
   },
   {
@@ -31,16 +53,6 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80',
     technologies: ['Computer Vision', 'CV2', 'Python', 'Pnadas','Tikinter','PIL'],
     github: 'https://github.com/MIHIRPANCHAL13/NUV-Vehicle-Parking-System',
-    live: '#',
-    featured: false,
-  },
-  {
-    title: 'Twitter Sentiment Analysis',
-    description: 'Twitter sentiment analysis is the process of determining the emotional tone behind a series of words, specifically on Twitter. A sentiment analysis tool is an automated technique that extracts meaningful customer information related to their attitudes, emotions, and opinions',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-    technologies: ['NLP', 'Data Processing', 'Machine Learning', 'Data Cleaning'],
-    github: '#',
-    live: '#',
     featured: false,
   },
 ];
@@ -109,12 +121,6 @@ export function Projects() {
                       <a href={project.github} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         Code
-                      </a>
-                    </Button>
-                    <Button size="sm" asChild>
-                      <a href={project.live} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="mr-2 h-4 w-4" />
-                        Live Demo
                       </a>
                     </Button>
                   </div>

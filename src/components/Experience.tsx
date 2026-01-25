@@ -5,9 +5,32 @@ import { Badge } from '@/components/ui/badge';
 
 const experiences = [
   {
+    title: 'AI Engineer',
+    company: 'NetWeb Software, Vadodara, Gujarat, India',
+    duration: 'Jul 2025 - Present',
+    description:
+      'Designing and deploying production-grade generative AI and machine learning solutions to optimize business workflows and deliver intelligent, scalable products.',
+    achievements: [
+      'Architected and deployed production-ready generative AI solutions using large language models and fine-tuning techniques to enhance customer experience and internal workflows',
+      'Developed and optimized machine learning pipelines using TensorFlow and Python, improving model performance through state-of-the-art algorithms and best practices',
+      'Collaborated with cross-functional teams to identify AI opportunities, design robust technical solutions, and deliver scalable AI-driven products',
+      'Implemented MLOps practices for model versioning, monitoring, and deployment across cloud platforms including AWS and Oracle Cloud Infrastructure'
+    ],
+    technologies: [
+      'Generative AI',
+      'Large Language Models (LLMs)',
+      'TensorFlow',
+      'Python',
+      'MLOps',
+      'AWS',
+      'Oracle Cloud Infrastructure',
+      'Prompt Engineering'
+    ],
+  },  
+  {
     title: 'Software Engineer',
     company: 'NetWeb Software, Vadodara, India',
-    duration: 'Jul 2024 - Present',
+    duration: 'Jul 2024 - Jul 2025',
     description:
       'Responsible for developing scalable and maintainable enterprise applications by leveraging modern frontend and backend technologies.',
     achievements: [

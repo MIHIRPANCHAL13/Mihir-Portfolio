@@ -245,7 +245,7 @@ export function Contact() {
         className="mt-20 pt-8 border-t border-border text-center"
       >
         <p className="text-muted-foreground">
-          © 2025 Mihir Panchal. Built with React, TypeScript, and TailwindCSS.
+          © 2026 Mihir Panchal. Built with React, TypeScript, and TailwindCSS.
         </p>
       </motion.div>
     </section>
