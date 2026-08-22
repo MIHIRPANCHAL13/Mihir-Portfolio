@@ -34,7 +34,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-8 font-light">
-          AI Engineer & Data Science Enthusiast
+         AI Engineer | Generative AI, LLMs & Prompt Engineering | Python | Machine Learning
           </h2>
         </motion.div>
 
