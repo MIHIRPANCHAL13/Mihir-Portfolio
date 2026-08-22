@@ -80,19 +80,18 @@ export function About() {
                 <h3 className="text-2xl font-semibold mb-6">My Story</h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                  AI Engineer with 2+ years of experience specializing in generative AI, machine learning, and full-stack development.
-Proven track record in developing innovative AI solutions using Python, TensorFlow, and modern web technologies.
-Certified in Oracle Cloud Infrastructure Generative AI, AWS Machine Learning, and Microsoft Foundry Fine-tuning.
-Passionate about leveraging cutting-edge AI technologies to solve complex real-world problems and drive business impact.
+                 I'm an AI Engineer who thrives on picking up new technologies fast and turning them into working solutions quickly. My focus is on Generative AI — building RAG (Retrieval-Augmented Generation) applications, Langchain, Langgraph, intelligent chatbots, and prompt engineering frameworks that solve real business problems. My background in software engineering means I don't just prototype — I ship things that work in production.
                   </p>
                   <p>
-                  I have earned certifications in Python, Pandas, and Gold Badge For SQL on HackerRank, along with completing 
-                  Google's Introduction to Generative AI, Introduction to Large Language Models, and Responsible AI courses. Additionally, 
-                  I’ve completed Kaggle's Geospatial Analysis course, diving deep into spatial data insights.
+                 What I bring:
+ • Rapid prototyping — going from idea to working AI solution fast
+ • RAG applications and chatbot development for enterprise use cases
+ • Prompt engineering, NLP, and machine learning
+ • A strong drive to learn new tools, frameworks, and techniques as the field evolves
                   </p>
                   <p>
-                  With a keen interest in generative AI, data science, and geospatial analysis, I am eager to contribute to impactful 
-                  projects, collaborate with the Kaggle community, and uncover meaningful insights from data. Let’s connect, learn, and create!!
+                  Certified in Generative AI (Oracle Cloud Infrastructure 2025), AWS Machine Learning (Foundations & NLP), Python, and SQL. Currently freelancing on AI integration and automation projects for startups and businesses, while actively pursuing full-time AI Engineering roles.
+                 Always happy to connect with the AI/ML and Kaggle community.
                   </p>
                 </div>
               </CardContent>
