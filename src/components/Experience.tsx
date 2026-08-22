@@ -5,9 +5,38 @@ import { Badge } from '@/components/ui/badge';
 
 const experiences = [
   {
+  title: 'AI Engineer',
+  company: 'Freelance',
+  duration: 'May 2026 - Present',
+  description:
+    'Designing and developing production-ready AI applications and intelligent backend systems to automate workflows and deliver scalable, enterprise-grade AI solutions.',
+  achievements: [
+    'Designed, developed, and maintained production-ready AI applications using Python, FastAPI, LangChain, LangGraph, and LangSmith',
+    'Built scalable backend services and REST APIs to support AI agent workflows and enterprise applications',
+    'Developed Retrieval-Augmented Generation (RAG) pipelines to analyze organizational knowledge and deliver accurate, context-aware responses',
+    'Integrated Large Language Models (LLMs) with vector databases, document processing pipelines, and external APIs to enhance AI capabilities',
+    'Optimized prompt engineering, agent orchestration, memory management, and workflow execution to improve accuracy, scalability, and performance',
+    'Collaborated directly with clients to understand business requirements and deliver secure, scalable, and high-quality AI solutions'
+  ],
+  technologies: [
+    'Generative AI',
+    'Large Language Models (LLMs)',
+    'Python',
+    'FastAPI',
+    'LangChain',
+    'LangGraph',
+    'LangSmith',
+    'RAG',
+    'Vector Databases',
+    'Prompt Engineering',
+    'AI Agents',
+    'REST APIs'
+  ],
+},
+  {
     title: 'AI Engineer',
     company: 'NetWeb Software, Vadodara, Gujarat, India',
-    duration: 'Jul 2025 - Present',
+    duration: 'Jun 2025 - Apr 2026',
     description:
       'Designing and deploying production-grade generative AI and machine learning solutions to optimize business workflows and deliver intelligent, scalable products.',
     achievements: [
@@ -30,7 +59,7 @@ const experiences = [
   {
     title: 'Software Engineer',
     company: 'NetWeb Software, Vadodara, India',
-    duration: 'Jul 2024 - Jul 2025',
+    duration: 'Jul 2024 - May 2025',
     description:
       'Responsible for developing scalable and maintainable enterprise applications by leveraging modern frontend and backend technologies.',
     achievements: [
